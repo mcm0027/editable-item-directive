@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head  lang='en'>
+
+  <meta charset='UTF-8'>
+  <title>editable</title>
+<!--  <link rel="stylesheet" href="style.css">-->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+  <script src="./app.js"></script>
+</head>
+<body ng-controller="mainController">
+  <h1 editable>Boots boots boots boots boots boots</h1>
+  
+  <p editable>Fishing like a madman, Dave lost his boots in the river. Now he will never make it back home without blisters on his feet.</p>
+  <button id="switch" ng-click="switch()">Save</button>
+</body>
+</html>
